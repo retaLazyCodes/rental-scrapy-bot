@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "rental-scraper"
+version = "0.1.0"
+description = ""
+authors = ["Brian Retamar <brianretamar0101@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+scrapy = "^2.11.2"
+
+
+[tool.poetry.group.dev.dependencies]
+flake8 = "^7.1.1"
+black = "^24.8.0"
+
+[tool.black]
+line-length = 88
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
