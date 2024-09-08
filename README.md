@@ -1,6 +1,4 @@
-Rental Scraper
-
-============
+# Rental Scraper
 
   
 
